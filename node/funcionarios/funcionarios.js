@@ -12,8 +12,8 @@ const homens = (f) => f.genero === "M"
 
 axios.get(url).then((response) => {
   const funcionarios = response.data
-  console.log(funcionarios)
-  console.log("-=-")
+  // console.log(funcionarios)
+  // console.log("-=-")
 
   //A mulher chinesa com o menor salario
   const target1 = funcionarios
